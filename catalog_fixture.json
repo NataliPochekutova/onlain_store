@@ -1,0 +1,57 @@
+[
+{
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+        "name": "Смартфоны",
+        "description": "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+        "name": "Телевизоры",
+        "description": "Современный телевизор, который позволяет наслаждаться просмотром"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+        "name": "Samsung Galaxy S23 Ultra",
+        "description": "256GB, Серый цвет, 200MP камера",
+        "photo_product": "",
+        "price": "190000.00",
+        "category": 4,
+        "created_at": "2025-06-29",
+        "updated_at": "2025-06-29"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+        "name": "Iphone 15",
+        "description": "512GB, Gray space",
+        "photo_product": "",
+        "price": "210000.00",
+        "category": 4,
+        "created_at": "2025-06-29",
+        "updated_at": "2025-06-29"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+        "name": "55 QLED 4K",
+        "description": "Фоновая подсветка",
+        "photo_product": "",
+        "price": "123000.00",
+        "category": 5,
+        "created_at": "2025-06-29",
+        "updated_at": "2025-06-29"
+    }
+}
+]
