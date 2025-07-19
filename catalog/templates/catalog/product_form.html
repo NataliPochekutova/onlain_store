@@ -4,9 +4,9 @@
 
 <body>
  <h1>{% if object %}
-     Редактировать статью
+     Редактировать товар
      {% else %}
-     Новая статья
+     Добавить новый товар
      {% endif %}</h1>
 
     <form method="post" enctype="multipart/form-data">
@@ -20,7 +20,7 @@
                  Добавить
                 {% endif %}
              </button>
-         <a href="{% url 'blog:blog_list' %}" class="btn btn-secondary">Отмена</a>
+         <a href="{% url 'catalog:product_list' %}" class="btn btn-secondary">Отмена</a>
     </form>
 </body>
 
