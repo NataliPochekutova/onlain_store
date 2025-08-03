@@ -4,6 +4,8 @@ from users.models import User
 
 
 class Category(models.Model):
+    DoesNotExist = None
+    objects = None
     name = models.CharField(
         max_length=100, verbose_name="Категория", help_text="Введите название категории"
     )
